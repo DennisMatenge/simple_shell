@@ -15,7 +15,7 @@ int _myhistory(info_t *info)
 }
 
 /**
- * unset_alias - sets alias to string
+ * unset_alias - unsets an alias
  * @info: parameter struct
  * @str: the string alias
  *
@@ -38,7 +38,7 @@ int unset_alias(info_t *info, char *str)
 }
 
 /**
- * set_alias - sets alias to string
+ * set_alias - sets an alias
  * @info: parameter struct
  * @str: the string alias
  *
