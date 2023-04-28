@@ -129,5 +129,8 @@ return (1);
 }
 i++;
 prev_node = node;
-node = node->
+node = node->next;
+}
+return (0);
+}
 
